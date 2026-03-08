@@ -53,7 +53,7 @@ In this project, a series of **Scan D Flip-Flops (SDFF)** (Fig. 1) are connected
    The wave produced after running a simulation for the *TRCUTtb.v* testbench is the one shown in Figure 4, which you can also find in the **/Lab1/doc** directory along with the other Figures.
 <br/>
 <figure>
-    <img src="/Lab1/doc/TRCUT_tb_sim.png" alt="TRCUT tb wave" width="850" height="950">
+    <img src="/Lab1/doc/TRCUTtb_wave.png" alt="TRCUT tb wave" width="850" height="950">
     <figcaption>Figure 4. TRCUT testbench waveform</figcaption>
 </figure>
 
