@@ -46,6 +46,7 @@ In this project, a series of **Scan D Flip-Flops (SDFF)** (Fig. 1) are connected
 <br/>Add all .v files from the /Lab1/src/ directory into your project.
 
 3. **Run the simulation**
+<br/> Start a simulation for *TRCUTtb.v*.
 <br/>If you are using *Modelsim* or *QuestaSim*, you can load the *.do* file found inside **Lab1/sim** by selecting **File > Load > Macro File** and choosing the *trcut_tb_1.do* file, or by typing ```do trcut_tb_1.do``` inside the Transcript console. Run the simulation by typing the command ```run -all``` in the Transcript window or by pressing the *Run -All* button.
 
 ---
