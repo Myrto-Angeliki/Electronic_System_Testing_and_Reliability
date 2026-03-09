@@ -59,6 +59,7 @@ This project uses the output of the 4th DFF of an 8-bit **Linear-Feedback Shifth
 <br/>Add all .v files from the **/Lab1/src/** (besides *TRCUTtb.v*) and **/Lab2/src/** directory into your project.
 
 3. **Run the simulation**
+<br/> Start a simulation for either *TRCUTwithLFSRtb.v* or *TRCUTwithMISRtb.v*.
 <br/>If you are using *Modelsim* or *QuestaSim*, you can load the *.do* files found inside **/Lab2/sim** by selecting **File > Load > Macro File** and choosing the *.do* file, or by typing ```do file_name.do``` inside the Transcript console. Run the simulation by typing the command ```run -all``` in the Transcript window or by pressing the *Run -All* button.
 
 ---
@@ -104,7 +105,7 @@ signatures 1286 and 21785 are produced respectively. These signatures differ fro
 </figure>
 <br/> <br/> <br/>
 
-On the other hand, there are cases where an error in the circuit doesn't get detected because a correct signature is produced dispite its presence (aliasing error). To showcase this, the *g* signal of the **CUT** has been set to 1 from 0.22ns to 0.26ns (it is equal to 0 during normal operation). The signature produced in the presence of the error and in the normal operation is the same (14300), meaning the error was not detected (Fig. 7, Fig. 8). 
+On the other hand, there are cases where an error in the circuit doesn't get detected because a correct signature is produced despite its presence (aliasing error). To showcase this, the *g* signal of the **CUT** has been set to 1 from 0.22ns to 0.26ns (it is equal to 0 during normal operation). The signature produced in the presence of the error and in the normal operation is the same (14300), meaning the error was not detected (Fig. 7, Fig. 8). 
 
 <br/>
 <figure>
